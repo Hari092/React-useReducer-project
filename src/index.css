@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+  background-color: #645cff;
+  color: aliceblue;
+}
+.image {
+  height: 5rem;
+  width: 5rem;
+}
+.bag {
+  font-size: 75px;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 0;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.left {
+  display: flex;
+}
+
+button {
+  border: 0;
+}
+.remove-btn {
+  font-size: 15px;
+  color: blue;
+  cursor: pointer;
+}
+.Main {
+  /* background-color: red; */
+  margin: 0 330px;
+  display: flex;
+  flex-direction: column;
+}
+.clearAll {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  border: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  color: #a6a2f4;
+  background-color: blue;
+}
+.hr {
+  margin-top: 50px;
+}
+.finalCheck > h2 {
+  font-size: 25px;
+  padding-left: 30px;
+  font-weight: 200;
+}
+.finalCheck > p {
+  display: inline-block;
+  background-color: #645cff;
+  color: white;
+  padding: 5px;
+  height: max-content;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
